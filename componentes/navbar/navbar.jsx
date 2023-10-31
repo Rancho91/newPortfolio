@@ -67,7 +67,7 @@ export default function Navbar() {
                         </div>
                     </div>
 
-                    <div className="flex flex-row space-x-2 justify-center items-end">
+                    <div className="flex flex-row space-x-2 justify-center items-end pb-8 md:pb-0">
                         <div className="">
                             <a
                                 href="https://www.linkedin.com/in/ramiro-sanchez-solano/"
