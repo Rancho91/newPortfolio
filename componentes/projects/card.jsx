@@ -25,7 +25,7 @@ export default function CardProyect({ name, image, description, tecnologies, web
                     ></div>
                     <div className="flex flex-col space-y-4 md:w-[70%]">
                         <div>
-                            <p> {description}</p>
+                            <p className={inter.className}> {description}</p>
 
                         </div>
                         <div className="flex flex-row space-x-2 flex-wrap justify-center md:justify-between">

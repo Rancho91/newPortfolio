@@ -48,18 +48,18 @@ export default function Navbar() {
                                 <li>
                                     <a href="#educacion" className="flex items-center p-2 text-gray-100 hover:bg-celeste-hover rounded-lg  group">
 
-                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Education</span>
+                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Educacion</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#proyectos" className="flex items-center p-2 text-gray-100 hover:bg-celeste-hover rounded-lg group">
-                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Projects</span>
+                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Proyectos</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#contacto" className={`${styles.nav} flex items-center p-2 text-gray-100 hover:bg-celeste-hover rounded-lg` }>
 
-                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Contact</span>
+                                        <span className={` ${inter.className} text-gray-100  ml-3 text-xl`}>Contacto</span>
                                     </a>
                                 </li>
 

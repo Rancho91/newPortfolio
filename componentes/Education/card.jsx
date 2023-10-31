@@ -1,3 +1,5 @@
+"use client"
+
 import { Quicksand, Rubik } from "next/font/google"
 
 const inter = Quicksand({ subsets: ['latin'], weight: ['500'] });

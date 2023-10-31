@@ -57,7 +57,7 @@ export default function Contact() {
                   type="email"
                   name="email"
                   id="email"
-                  className="bg-celeste-back text-sm md:text-lg text-gray-100 p-1 rounded-xl"
+                  className={`${inter.className}  bg-celeste-back text-sm md:text-lg text-gray-100 p-1 rounded-xl`}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -70,7 +70,7 @@ export default function Contact() {
                   id="nombre"
                   placeholder="Nombre y Apellido"
                   value={name}
-                  className="bg-celeste-back text-sm md:text-lg text-gray-100 p-1 rounded-xl"
+                  className={`${inter.className}  bg-celeste-back text-sm md:text-lg text-gray-100 p-1 rounded-xl`}
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
@@ -84,7 +84,7 @@ export default function Contact() {
                   name="msj"
                   id="msj"
                   placeholder="Mensaje"
-                  className={`h-32 w-full text-sm md:text-lg bg-celeste-back text-gray-100 p-1 rounded-xl`}
+                  className={`${inter.className} h-32 w-full text-sm md:text-lg bg-celeste-back text-gray-100 p-1 rounded-xl`}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   
