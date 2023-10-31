@@ -21,7 +21,7 @@ export default function About() {
                 </div>
                 <div className={`md:w-[60%]`}>
                     <p className={`${inter.className} text-sm md:text-lg text-celeste-background`}>
-                        {abautE}
+                        {abaut}
                     </p>
                 </div>
 
