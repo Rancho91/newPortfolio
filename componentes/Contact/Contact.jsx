@@ -50,7 +50,7 @@ export default function Contact() {
       <div className="flex flex-col space-y-6 w-full justify-center py-4" id="contacto">
         <form onSubmit={handleSubmit} className={`flex flex-col space-y-6 w-full justify-center`}>
           <div className={`flex flex-col space-y-6 justify-center`}>
-            <div className="flex space-y-2 flex-col md:flex-row md:space-x-6 justify-center">
+            <div className="flex space-y-2 space-y-0 flex-col md:flex-row md:space-x-6 justify-center">
               <div className="">
                 <input
                   placeholder="ejemplo@gmail.com"
